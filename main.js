@@ -1,14 +1,15 @@
 //variáveis
 var idade = 29;
-var idade2 = 10;
+var idade2 = 0;
 var frase = "japão é o melhor time do mundo"
 var nome = "Rafael Galleani";
 
 //condicionais
-if (idade > idade2) {
-    alert("the book is idade maior que idade2");
+var suaidade = prompt("Digite a sua idade: ")
+if (suaidade >= 18) {
+    alert("vc é di maior");
 } else {
-    alert("the book not is idade menor que idade2");
+    alert("vc é di menor");
 };
 
 
